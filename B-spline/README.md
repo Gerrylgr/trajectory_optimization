@@ -44,8 +44,18 @@ C++:
 
     ./astar_bspline 
 
+（代码中函数具体用法可见注释）
+
+### 讲解视频可见个人主页：
+
+https://b23.tv/bTT1iDU
+
 ### 声明
     
+If you use this work in your research, please cite it as follows:
+
+[刘耕睿]. (2025). *trajectory_optimization* [Computer software]. GitHub. https://github.com/Gerrylgr/trajectory_optimization
+
 
 ## 3.作者
 
