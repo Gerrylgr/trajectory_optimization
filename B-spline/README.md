@@ -9,21 +9,11 @@
 
 Python:
 
-![image5](image/python_image.png)
-<style>
-    img[alt="image5"]{
-        width:300px;
-    }
-</style>
+< img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/B-spline/image/python_image.png" width="300px">
 
 C++:
 
-![image5](image/c++_image.png)
-<style>
-    img[alt="image5"]{
-        width:300px;
-    }
-</style>
+< img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/B-spline/image/c++_image.png" width="300px">
 
 ## 2.使用方法
 
