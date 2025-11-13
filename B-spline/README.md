@@ -42,7 +42,7 @@ https://b23.tv/bTT1iDU
 
 ### 声明
     
-If you use this work in your research, please cite it as follows:
+If you use this work in your research(paper,video,etc.), please cite it as follows:
 
 [刘耕睿]. (2025). *trajectory_optimization* [Computer software]. GitHub. https://github.com/Gerrylgr/trajectory_optimization
 
