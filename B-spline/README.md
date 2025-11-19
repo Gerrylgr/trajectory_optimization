@@ -21,7 +21,7 @@ C++:
 
 运行 astar_bsline.py:
 
-    python3 python3 B-spline/astar_bsline.py 
+    python3 B-spline/astar_bsline.py 
 
 <br/>
 运行 astar_bsline.cpp:
@@ -42,7 +42,7 @@ https://b23.tv/bTT1iDU
 
 ### 声明
     
-If you use this work in your research(paper,video,etc.), please cite it as follows:
+If you use this work in your research(or paper,video,etc.), please cite it as follows:
 
 [刘耕睿]. (2025). *trajectory_optimization* [Computer software]. GitHub. https://github.com/Gerrylgr/trajectory_optimization
 
