@@ -27,6 +27,7 @@ C++:
 
 配置编译规则：(请提前安装好 OpenCV、OSQP、OSQP-Eigen，如果找不到包请自行到 CMakeLists.txt 中修改路径)
 
+    mkdir Corridor-Inflation+Minimumsnap/build
     cd Corridor-Inflation+Minimumsnap/build/
     cmake ..
 
