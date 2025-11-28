@@ -9,11 +9,11 @@
 
 Python:
 
-<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/B-spline/image/python_image.png" width="300px">
+<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/B-spline/image/python_image.png" width="500px">
 
 C++:
 
-<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/B-spline/image/c++_image.png" width="300px">
+<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/B-spline/image/c++_image.png" width="500px">
 
 ## 2.使用方法
 
