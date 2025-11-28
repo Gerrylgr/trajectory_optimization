@@ -2,7 +2,7 @@
 ## 1.项目介绍
 
 本项目实现了 (A*+) 安全走廊构建 + Minimumsnap 算法，提供 C++ 与 Python 两种版本，可用于机器人路径规划；
-对于曲线平滑原理的简单解释（包含贝塞尔曲线与B样条曲线），可见文件：[Minimumsnap问题构建解释.md](Minimumsnap问题构建解释.md)
+对于 Minimumsnap 问题构建的简单解释，可见文件：[Minimumsnap问题构建解释.md](Minimumsnap问题构建解释.md)
 
 项目文件可视化截图：
 
