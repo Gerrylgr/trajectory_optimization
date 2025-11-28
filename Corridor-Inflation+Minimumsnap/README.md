@@ -8,11 +8,11 @@
 
 Python:
 
-(image9)
+<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/Corridor-Inflation%2BMinimumsnap/image/image9.png" width="500px">
 
 C++:
 
-(image10)
+<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/Corridor-Inflation%2BMinimumsnap/image/image10.png" width="500px">
 
 ## 2.使用方法
 
