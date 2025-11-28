@@ -40,9 +40,9 @@ C++:
 
 https://b23.tv/bTT1iDU
 
-### 声明
+### 声明 ※※※
     
-If you use this work in your research(or paper,video,etc.), please cite it as follows:
+If you use this work in your research(or paper,video,etc.), you must cite it as follows:
 
 [刘耕睿]. (2025). *trajectory_optimization* [Computer software]. GitHub. https://github.com/Gerrylgr/trajectory_optimization
 
