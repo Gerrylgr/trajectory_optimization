@@ -32,10 +32,10 @@ xi 代表每一个路径点，ci 是对应走廊质心坐标，第二部分越�
 所以二次项是 λ\*xi^2，线性项是 −2λ\*ci\*xi	，常数项不用管（对求最小值没影响）
 <br/><br/>
 总结可知，二次项矩阵为：<br/>
-<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/Corridor-Inflation%2BMinimumsnap/image/image4.png" width="230px">
+<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/Corridor-Inflation%2BMinimumsnap/image/image4.png" width="210px">
 <br/>
 线性项为：<br/>
-<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/Corridor-Inflation%2BMinimumsnap/image/image5.png" width="200px">
+<img src="https://github.com/Gerrylgr/trajectory_optimization/blob/master/Corridor-Inflation%2BMinimumsnap/image/image5.png" width="190px">
 <br/>
 这就是代码中的 Qt（Q total） 和 c（的组成）
 <br/><br/>
