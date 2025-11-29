@@ -1,31 +1,3 @@
-/*
-C++ 翻译：安全走廊膨胀 + Minimum-snap
-文件：convex_corridor_minimum_snap.cpp
-说明：这是对您提供的 Python 脚本的逐步翻译与工程化实现。
-
-主要功能：
- - A* 网格路径规划（8向）
- - 路径简化（基于夹角）
- - 将离散格点路径转换为以(x,y)为单位的路径
- - 生成每段的矩形/凸多边形走廊（convex_corridor）
- - 用 Boost.Geometry 实现点在多边形内判定与多边形/直线切割（split）
- - 将 Minimum-snap 问题转成二次规划（QP），并用 OSQP-Eigen 求解
-
-注意：该实现依赖以下第三方库：
- - Eigen (线性代数)
- - Boost (geometry, polygon 处理)
- - OSQP + OSQP-Eigen (二次规划求解器)
- - C++17 标准
-
-构建（示例 CMakeLists 要求）：
- - find_package(Eigen3 REQUIRED)
- - find_package(Boost REQUIRED COMPONENTS geometry)
- - 链接 osqp 和 osqp-eigen（请按系统安装）
-
-因为 Python 版使用 shapely.split、vectorized.contains 等高级函数，C++ 版使用 Boost.Geometry 的 intersection/difference 来尽量复现功能；某些细节（例如 polygon split 的拓扑边界处理）在不同库间有差异，我在代码中注明了注意点与可能需要调优的地方。
-
-作者：翻译与工程化脚本，输出包含实现与大量注释，便于移植与调试。
-*/
 
 #include <bits/stdc++.h>
 #include <Eigen/Dense>
@@ -1115,7 +1087,7 @@ int main(){
     for(auto &p: simplified) 
         path_int.emplace_back(int(round(p.first)), int(round(p.second)));
 
-    auto traj = minimum_snap_solver(corridors, grid, path_int, N, 2, "OSQP", 2.5);
+    auto traj = minimum_snap_solver(corridors, grid, path_int, N, 2, "OSQP", 1.0);
     auto t3 = high_resolution_clock::now();  
     cout<<"Minimum-snap time: "<<duration<double>(t3-t2).count()<<"s\n";
     

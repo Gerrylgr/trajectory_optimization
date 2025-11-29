@@ -1,0 +1,3 @@
+/home/gerry/trajectory_optimization/Corridor-Inflation+Minimumsnap/build/CMakeFiles/corridor_minimum_snap.dir
+/home/gerry/trajectory_optimization/Corridor-Inflation+Minimumsnap/build/CMakeFiles/edit_cache.dir
+/home/gerry/trajectory_optimization/Corridor-Inflation+Minimumsnap/build/CMakeFiles/rebuild_cache.dir
