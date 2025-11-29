@@ -1,3 +1,31 @@
+"""
+ *  A* + (Corner-Preserving Path Simplification) + Improved Uniform B-Spline Smoothing
+ *  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *  Copyright (C) 2025 Gerry (刘耕睿)
+ *  GitHub    : https://github.com/Gerrylgr
+ *  Bilibili  : https://space.bilibili.com/673367025
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ *  Author         : 刘耕睿 (Gerry)
+ *  Contact        : 2717915639@qq.com
+ *  Created        : 2025-11
+ *  Last Modified  : 2025-11-30
+ *
+ *  Description    : A* + (Corner-Preserving Path Simplification) + Improved Uniform B-Spline Smoothing
+"""
+
 import numpy as np
 import math
 import heapq
