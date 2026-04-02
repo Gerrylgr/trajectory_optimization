@@ -1,6 +1,9 @@
 # 如何将 Minimumsnap 问题构建为二次规划问题，以丢给求解器（OSQP）求解？
 
-Minimumsnap 的核心思想是让加加速度的变化整体最小化；（本文这里假设每段路径用时相同，也就是每段路径都是“单位时间”）<br/>
+首先：<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minimumsnap 的核心思想是让加加速度的变化整体最小化；（本文这里假设每段路径用时相同，也就是每段路径都是“单位时间”）<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这里 Minimumsnap 是凸问题，而像 LBFGS 属于非凸优化，<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;凸优化 = 最小化凸函数（或最大化凹函数）,非凸优化为其他的所有情况。
 
 ## 一、Minimumsnap 问题的原始表达式
 在这个轨迹优化问题中，表达式为：<br/>
